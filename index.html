@@ -1,0 +1,176 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Teste para vaga Front-End | Moovin</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+	<body>
+		<!-- TOPO -->
+		<div id="topo">
+			<!-- TOPO INFORMAÇÕES -->
+			<div id="topo_menu_navegacao">
+				<ul class="topo_menu_navegacao-body">
+					<li class="topo-menu_navegacao-fone"><span></span>(51) 3013-2154</li>
+					<li class="topo-menu_navegacao-whats"><span></span>(51) 9900-2154</li>
+					<li class="topo-menu_navegacao-chat"><span></span><a href="javascript:void()" title="Atendimento via chat" class="chat-button">Chat Offline</a></li>
+					<li class="topo-menu_navegacao-casamento"><a href="/produtos_listas"><span></span>Lista de casamento</a></li>
+					<li class="topo-menu_navegacao-pedidos"><a href="/clientes/pedidos"><span></span>Meus Pedidos</a></li>
+					<li class="topo-menu_navegacao-login"><a href="/login"><span></span>Login</a></li>
+					<li class="clear"></li>
+				</ul>
+			</div>
+			<div id="topo_inside">
+				<!-- LOGO -->
+				<a href="/" id="topo_logo" title="Teste Moovin"></a>
+				<div id="topo_corpo">
+					<!-- TOPO VISITANTE - BUSCA - Caixa com duas subcaixas. Uma exibe um texto com link para login e outra o campo de busca. -->
+					<div id="topo_visitante-busca">
+						<!-- TOPO INSIDE - Caixa com campo de busca.. -->
+						<div class="topo_busca">
+							<form class="topoBuscaForm" action="/produtos" method="get" enctype="application/x-www-form-urlencoded">
+								<label class="topo_busca-icon" for="topo_busca_campo"></label>
+								<div class="topo_busca_textfield">
+									<div class="topo_busca_envolve">
+										<input type="text" name="busca" id="topo_busca_campo" class="topo_busca_campo" placeholder="O que você está procurando?">
+									</div>
+								</div>
+								<input type="submit" class="topo_busca_botao" value="Buscar">
+							</form>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<!--REDES SOCIAIS. -->
+					<div id="redes_sociais" class="rede_social_geral">
+						<div class="redes_sociais_img">
+							<ul id="redes_sociais_lista">
+								<li id="rede_social_titulo">Siga-nos</li>
+								<li>
+									<a href="www.facebok.com.br"><img src="img/layout/sprites/face.png"></a>
+								</li>
+								<li>
+									<a href="www.instagram.com.br"><img src="img/layout/sprites/insta.png"></a>
+								</li>
+								<li>
+									<a href="www.twitter.com.br"><img src="img/layout/sprites/twitter.png"></a>
+								</li>
+								<li>
+									<a href="www.youtube.com.br"><img src="img/layout/sprites/youtube.png"></a>
+								</li>
+							</ul>
+						</div>
+
+						<!-- TOPO CARRINHO - Carrinho de compras exibido no topo da página. -->
+						<div id="topo_carrinho" class="ctrCarrinhoGeralArea">
+							<a href="/carrinho" class="topo_carrinho-sacola">
+								<span class="carrinho_icn"></span>
+								<div id="topo_carrinho_info">
+									<div class="carrinho_titulo">Minhas Compras</div>
+									<span class="ctrCarrinhoGeralQtd">30</span>
+									<span class="topo_carrinho-qtd">Itens&nbsp;|&nbsp;</span>
+									<span class="carrinho_valor ctrCarrinhoGeralValor">R$ 1500,00</span>
+								</div>
+							</a>
+							<div class="ctrCarrinhoInfoRapidaArea">
+								<div class="carrinho_hidden">
+									<div class="spacer_carrinho"></div>
+									<div class="carrinho_hidden_corpo">
+										<div class="carrinho_hidden-corta"></div>
+										<div class="carrinho_hidden_inside">
+											<ul class="carrinho_hidden_inside_lista">
+												<li class="carrinho_vazio">Seu carrinho está vazio</li>
+											</ul>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<!-- MENU TOPO -->
+			<div id="menu_topo">
+				<ul class="menu_topo-lista">
+					<!-- Tendencias -->
+					<li class="menu_topo_inside_lista_item tendencias">
+						<a href="/produtos?ordem=lancamento" title="Tendências" class="titulo_menu"><span></span>Tendências</a>
+					</li>
+					<li class="menu_topo-spacer"></li>
+					<!-- Decorar -->
+					<li class="menu_topo_inside_lista_item decorar menu_topo_inside_lista_item-submenu">
+						<a href="/decorar" title="Decorar" class="titulo_menu"><span></span>Decorar</a>
+					</li>
+					<li class="menu_topo-spacer"></li>
+					<!-- Preparar -->
+					<li class="menu_topo_inside_lista_item preparar menu_topo_inside_lista_item-submenu">
+						<a href="/preparar" title="Preparar" class="titulo_menu"><span></span>Preparar</a>
+					</li>
+					<li class="menu_topo-spacer"></li>
+					<!-- Servir -->
+					<li class="menu_topo_inside_lista_item servir menu_topo_inside_lista_item-submenu">
+						<a href="/servir" title="Servir" class="titulo_menu"><span></span>Servir</a>
+					</li>
+					<li class="menu_topo-spacer"></li>
+					<!-- Moveis -->
+					<li class="menu_topo_inside_lista_item moveis menu_topo_inside_lista_item-submenu">
+						<a href="/moveis2" title="Móveis" class="titulo_menu"><span></span>Móveis</a>
+					</li>
+					<li class="oferta_semana">
+						<a href="#">
+							<div class="banner_oferta">								
+								<p>Oferta da semana</p>
+								<img id="relogio" src="img/relogio.png">
+
+							</div>
+						</a>
+
+					</li>
+					<!-- FIM ITENS MENU TOPO -->
+				</ul>
+			</div>
+			<!-- Banner Central -->
+			<div class="banner-index_centro">
+				<img src="img/banner_novo.jpg">
+			</div>
+			<!-- newsletter -->
+			<form class="news" method="get" id="form_contato">
+				<div class="conteudo_news">
+					<label>Cadastra-se e receba promoções no seu e-mail!</label>
+					<input class="conteudo_news" id="nome" type="text" name="nome" placeholder="Seu nome">
+
+					<input class="conteudo_news" id="email" type="email" name="email" placeholder="Seu e-mail">
+
+					<input type="submit" class="botao" value="OK">
+				</div>
+			</form>
+			<!-- PÁGINA -->
+			<div class="imagens">
+				<div id="conteudo1" class="pai">
+					<img class="first" src="img/ambiente_1.png">
+					<div id="texto1_img1">UMA SALA ACONCHEGANTE</div>
+					<div id="texto2_img1">E CHEIA DE ESTILO</div>
+					<p id="texto">Ambiente 01-Sala de Estar
+						<br> Conteporânea e Clean</p>
+				</div>
+				<div id="conteudo2">
+					<img src="img/ambiente_2.png">
+					<div id="texto1_img2">AMBIENTE DESCONTRAIDO</div>
+					<div id="texto2_img2">PARA UMA FESTA ANIMADA</div>
+					<p id="texto">Ambiente 02-Qarto legal</p>
+				</div>
+				<div id="conteudo3">
+					<img src="img/ambiente_3.png">
+					<div id="texto1_img3">AMBIENTE PRÁTICO</div>
+					<div id="texto2_img3">PARA UMA FESTA ANIMADA</div>
+					<p id="texto">Ambiente 03-Sala Moderna
+						<br> e Multifuncional</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="valida.js"></script>
+	</body>
+
+</html>

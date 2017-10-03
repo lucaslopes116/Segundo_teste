@@ -1,0 +1,15 @@
+INSTRUÇÔES PARA REALIZAÇÃO DO TESTE:
+
+Nesta pasta contém os arquivos index.html e estilo.css que devem ser alterados sua estrutura de acordo com o layout.png:
+
+* Diminuir o campo busca e adicionar redes sociais - V
+* Adicionar no menu a oferta da semana
+* Trocar o banner principal
+* Adicionar um cadastro de newsletter
+* Adicionar os 3 posts de ambientes
+
+
+Diferenciais (opcional):
+* Validação de campos client-side utilizando javascript ou jquery para o formulário de newsletter o retorno pode ser em alerts
+
+#CBC5C0
